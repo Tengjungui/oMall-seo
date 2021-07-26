@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <title>omall网站seo技术文档专题</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
+  <meta name="keywords" content="nuxt.js框架seo、nuxt的url-key方案、nuxt的urlKey解决方案、301、302重定向" />
+  <meta name="description" content="nuxt.js框架seo技术文档专题">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css"> 
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
@@ -44,8 +45,7 @@
         function (hook, vm) {
           hook.doneEach(function() {
             var label, domObj, main, divEle, gitalk;
-            console.log('vm.route.path :', vm.route.path)
-            label = vm.route.path.split("/").pop();
+            label = vm.route.path && vm.route.path.split("/").pop();
             domObj = Docsify.dom;
             main = domObj.getNode("#main");
 
