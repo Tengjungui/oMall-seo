@@ -1,0 +1,27 @@
+{
+  "name": "omall-seo",
+  "version": "1.0.0",
+  "description": "omall网站seo技术文档专题",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "init": "docsify init ./docs",
+    "dev": "docsify serve ./docs",
+    "start": "docsify start ./docs",
+    "generate": "docsify generate ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bule-sky/oMall-seo.git"
+  },
+  "author": "shadowmon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bule-sky/oMall-seo/issues"
+  },
+  "homepage": "https://github.com/bule-sky/oMall-seo#readme",
+  "dependencies": {
+    "docsify": "^4.12.1"
+  }
+}
