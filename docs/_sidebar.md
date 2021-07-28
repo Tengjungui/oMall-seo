@@ -9,7 +9,8 @@
     - [什么是URL KEY？](/router/what-is-URL-key.md)
 
 
-- 系统模块
+- 文章模块
+    - [如何使用 NuxtJS 处理 301 重定向](/nuxt/nuxt-redirect.md)
     - [`[Module]` CommonJS 模块机制](/nodejs/module.md)
     - [`[Module]` ES Modules 入门基础](/nodejs/modules/esm.md)
     - [`[Events]` 事件触发器](/nodejs/events.md)
