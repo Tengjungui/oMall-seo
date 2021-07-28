@@ -6,6 +6,7 @@
     - [Router 重定向和别名是什么？](/router/redirect-alias.md)
     - [动态路由和静态路由的区别？动态路由如何实现？](/router/dynamic-static-routes.md)
     - [什么是伪静态？伪静态有何作用?](/router/pseudo-static.md)
+    - [什么是URL KEY？](/router/what-is-URL-key.md)
 
 
 - 系统模块

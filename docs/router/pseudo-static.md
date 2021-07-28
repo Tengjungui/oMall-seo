@@ -16,17 +16,26 @@
 
     动态 URL 是动态创建的，可能包含一个查询字符串，其中包含产品 ID、排序顺序和发出请求的页面的变量。当客户在您的商店中搜索产品时，生成的 URL 可能如下所示：
 
-http://mystore.com/catalogsearch/result/?q=racer+back
-http://mystore.com/women/tops-women.html?style_general=135
+* https://sit-m.olightstore.ca/detail.html?skuId=1415484191490785282&productId=1415484191427870722&isIos=1
 
 ### 静态网址
 
     静态 URL 是特定页面的固定地址。静态 URL 可以以搜索引擎友好的格式或按 ID 引用产品和类别的格式显示。搜索引擎友好的 URL 包括人们可能用来查找产品的词，并且需要启用 Web 服务器重写。带有静态 URL 的文件通常用于产品和类别页面、内容页面和主题资产。
 
-http://mystore.com/antonia-racer-tank.html
+* https://sit-m.olightstore.ca/o-obulb-pu-ca.html
 
 ## 伪静态有何作用：
   > 伪静态页面，其目的是为了更好的被搜索引擎收录而通过一定的规则，把动态页面的地址转换成以htm或html结尾的地址，看起来是静态的，实际是依然是动态页面。
+
+### HTML 后缀
+您的目录可以配置为包含或排除后缀作为类别和产品 URL 的一部分。人们选择使用或省略后缀的原因有多种。有些人认为后缀不再有任何用处，没有后缀的页面会被搜索引擎更有效地索引。但是，您的公司可能具有需要后缀的 URL 的标准化格式。
+
+因为后缀是由系统配置控制的，所以永远不要将它直接输入到类别或产品的 URL 键中。（这样做会导致 URL 末尾出现双后缀。）无论您决定是否使用后缀，请保持一致并为所有产品和类别页面使用相同的设置。以下是带有和不带有后缀的 URL 示例。
+
+## 带有 HTML 后缀的 URL
+* https://sit-m.olightstore.ca/o-obulb-pu-ca.html
+## 不带 HTML 后缀的 URL
+* https://sit-m.olightstore.ca/o-obulb-pu-ca
 
 
 ### 伪静态如何实现： [实现伪静态](/router/guide.md)
