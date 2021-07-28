@@ -8,6 +8,9 @@
     - [什么是伪静态？伪静态有何作用?](/router/pseudo-static.md)
     - [什么是URL KEY？](/router/what-is-URL-key.md)
     - [什么是sitemap?对网站排名有什么作用？](/router/what-is-sitemap.md)
+    - [什么是sitemap?对网站排名有什么作用？](/router/what-is-sitemap.md)
+
+<!-- 什么是robots文件？robots.txt该怎么写？ -->
 
 - 文章模块
     - [`[Redirect]`如何使用 NuxtJS 处理 301 重定向](/nuxt/nuxt-redirect.md)
