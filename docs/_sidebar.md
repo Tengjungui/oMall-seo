@@ -8,13 +8,12 @@
     - [什么是伪静态？伪静态有何作用?](/router/pseudo-static.md)
     - [什么是URL KEY？](/router/what-is-URL-key.md)
     - [什么是sitemap?对网站排名有什么作用？](/router/what-is-sitemap.md)
-    - [什么是sitemap?对网站排名有什么作用？](/router/what-is-sitemap.md)
-
-<!-- 什么是robots文件？robots.txt该怎么写？ -->
+    - [什么是robots文件？robots.txt该怎么写？](/router/what-is-robots.md)
 
 - 文章模块
     - [`[Redirect]`如何使用 NuxtJS 处理 301 重定向](/nuxt/nuxt-redirect.md)
     - [`[Sitemap]` 使用@nuxtjs/sitemap给项目添加sitemap(站点地图)](/nuxt/nuxt-siteMap.md)
+    - [`[robots]` 使用@nuxtjs/robots给项目添加robots](/nuxt/nuxt-robots.md)
     - [`[Module]` CommonJS 模块机制](/nodejs/module.md)
     - [`[Module]` ES Modules 入门基础](/nodejs/modules/esm.md)
     - [`[Events]` 事件触发器](/nodejs/events.md)
