@@ -57,23 +57,6 @@
     - [企业实践](/nodejs/practice/enterprise.md)
     - [框架实践](/nodejs/practice/frame.md)
 
-- 数据库
-    - [`[Redis]` Node.js 中实践 Redis Lua 脚本](/database/redis-lua.md)
-    - [`[Redis]` Node.js 中实践 Redis 分布式锁](/database/redis-lock.md)
-    - [`[MongoDB]` 事务 | 基础篇](/database/mongodb-transactions.md)
-    - [`[MongoDB]` 事务 | 多文档事务实践篇](/database/mongodb-transactions-pratice.md)
-    - [`[MongoDB]` Node.js 中用 Mongoose 关联查询踩坑记录](/database/mongoose-populate.md)
-
-- 微服务
-    - [`[Microservice]` 数据通信方式 RPC、HTTP、消息队列](/microservice/data-communication.md)
-    - [`[Consul]` 服务注册与发现 Consul](/microservice/consul.md)
-    - [`[RabbitMQ]` 入门篇](/microservice/rabbitmq-base.md)
-    - [`[RabbitMQ]` 交换机消息投递机制](/microservice/rabbitmq-exchange.md)
-    - [`[RabbitMQ]` DLX（死信队列）+ TTL 实现延迟队列](/microservice/rabbitmq-schedule.md)
-    - [`[RabbitMQ]` Delayed Message 插件实现延迟队列](/microservice/rabbitmq-delayed-message-exchange.md)
-    - [`[RabbitMQ]` 高并发下消费端限流实践](/microservice/rabbitmq-prefetch.md)
-    - [`[RabbitMQ]` 服务异常重连](/microservice/rabbitmq-reconnecting.md)
-
 - Node.js 小知识
     - [HTTP 请求与响应如何设置 Cookie 信息]()
     - [如何实现线程睡眠？](/nodejs/tips/sleep.md)
@@ -87,18 +70,13 @@
 
 - Serverless
     - [Node.js 快速开启 Serverless Functions：入门实践指南](/serverless/serverless-functions-using-node-and-aws.md)
-    - [TypeScript + Serverless 开发 REST API 实战](https://github.com/qufei1993/aws-node-rest-api-typescript/blob/master/intro-zh.md)
     - [使用 Serverless, Nodejs, MongoDB Atlas cloud 构建 REST API](/serverless/node-mongodb-altas-serverless-api.md)
 
 - DevOps
-    - [`[Docker]` 入门到实践](/devops/docker-base.md)
-    - [`[Docker]` Node.js 服务容器化实践](/devops/docker-nodejs.md)
     - [`[Docker]` Node.js 进程的优雅退出](/devops/docker-build-nodejs-smooth-program.md)
     - [`[NPM]` 学会发布一个自己公共/私有包](/devops/npm-deploy.md)
     - [`[Deploy]` Node.js 生产环境完整部署指南](/devops/node-deploy.md)
 
 * 其他
 
-    - [2020 Nodejs技术栈原创文章合辑](/other/2020-noderoadmap-original-compilation.md)
-    - [2020 年度回顾 — 缘起「Nodejs技术栈」](/other/may-2020-review.md)
     - [Blog 推荐](/other/blog.md)
