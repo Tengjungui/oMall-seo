@@ -7,10 +7,11 @@
     - [动态路由和静态路由的区别？动态路由如何实现？](/router/dynamic-static-routes.md)
     - [什么是伪静态？伪静态有何作用?](/router/pseudo-static.md)
     - [什么是URL KEY？](/router/what-is-URL-key.md)
-
+    - [什么是sitemap?对网站排名有什么作用？](/router/what-is-sitemap.md)
 
 - 文章模块
-    - [如何使用 NuxtJS 处理 301 重定向](/nuxt/nuxt-redirect.md)
+    - [`[Redirect]`如何使用 NuxtJS 处理 301 重定向](/nuxt/nuxt-redirect.md)
+    - [`[Sitemap]` 使用@nuxtjs/sitemap给项目添加sitemap(站点地图)](/nuxt/nuxt-siteMap.md)
     - [`[Module]` CommonJS 模块机制](/nodejs/module.md)
     - [`[Module]` ES Modules 入门基础](/nodejs/modules/esm.md)
     - [`[Events]` 事件触发器](/nodejs/events.md)
@@ -51,25 +52,9 @@
     - [多维度分析 Express、Koa 之间的区别](/nodejs/base/express-vs-koa.md)
     - [在 Node.js 中如何处理一个大型 JSON 文件？](/nodejs/advanced/json-stream.md)
 
-- 好文翻译
-    - [你需要了解的有关 Node.js 的所有信息](/nodejs/translate/everything-you-need-to-know-about-node-js-lnc.md)
-    - [不容错过的 Node.js 项目架构](/nodejs/translate/bulletproof-node.js-project-architecture.md)
-
-- 实践指南
-    - [企业实践](/nodejs/practice/enterprise.md)
-    - [框架实践](/nodejs/practice/frame.md)
-
 - Node.js 小知识
     - [如何实现线程睡眠？](/nodejs/tips/sleep.md)
     - [实现图片上传写入磁盘的接口](/nodejs/tips/upload-picture.md)
-
-- Node.js News
-    - [一起来看看 Node.js v14.x LTS 中的这些新功能](/nodejs/version/node-v14-feature.md)
-    - [Node.js v14.15.0 已发布进入 LTS 长期支持](/nodejs/version/node-v14.15.0-lts-intro.md)
-
-- Serverless
-    - [Node.js 快速开启 Serverless Functions：入门实践指南](/serverless/serverless-functions-using-node-and-aws.md)
-    - [使用 Serverless, Nodejs, MongoDB Atlas cloud 构建 REST API](/serverless/node-mongodb-altas-serverless-api.md)
 
 - DevOps
     - [`[Docker]` Node.js 进程的优雅退出](/devops/docker-build-nodejs-smooth-program.md)

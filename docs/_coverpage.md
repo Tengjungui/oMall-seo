@@ -8,7 +8,7 @@
 [![stars](https://badgen.net/github/stars/bule-sky/oMall-seo?color=cyan&icon=github&label=点赞)](https://github.com/bule-sky/oMall-seo)
 [![issues](https://badgen.net/github/issues/bule-sky/oMall-seo?color=red&icon=github&label=问题)](https://github.com/bule-sky/oMall-seo/issues)
 [![forks](https://badgen.net/github/forks/bule-sky/oMall-seo?color=orange&label=收藏)](https://github.com/bule-sky/oMall-seo)
-[<img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E5%85%AC%E4%BC%97%E5%8F%B7-brightgreen">](https://nodejsred.oss-cn-shanghai.aliyuncs.com/node_roadmap_wx.jpg?x-oss-process=style/may)
+[<img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E5%85%AC%E4%BC%97%E5%8F%B7-brightgreen">](https://cdn.shadowmon.com/olight.png)
 
 [GitHub](<https://github.com/bule-sky/oMall-seo>)
 [个人博客](<http://blog.shadowmon.com/>)
