@@ -13,7 +13,9 @@
 - 文章模块
     - [`[Redirect]`如何使用 NuxtJS 处理 301 重定向](/nuxt/nuxt-redirect.md)
     - [`[Sitemap]` 使用@nuxtjs/sitemap给项目添加sitemap(站点地图)](/nuxt/nuxt-siteMap.md)
-    - [`[robots]` 使用@nuxtjs/robots给项目添加robots](/nuxt/nuxt-robots.md)
+    - [`[Robots]` 使用@nuxtjs/robots给项目添加robots](/nuxt/nuxt-robots.md)
+    - [`[伪静态]` nuxt站点伪静态底层实现原理](/nuxt/nuxt-rewrite.md)
+    - [`[URL key]` nuxt站点URL key底层实现原理](/nuxt/nuxt-urlkey.md)
     - [`[Module]` CommonJS 模块机制](/nodejs/module.md)
     - [`[Module]` ES Modules 入门基础](/nodejs/modules/esm.md)
     - [`[Events]` 事件触发器](/nodejs/events.md)

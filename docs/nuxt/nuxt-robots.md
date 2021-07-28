@@ -9,7 +9,7 @@ npm i @nuxtjs/robots -D
 cnpm i @nuxtjs/robots -D
 ```
 
-在项目根目录下找到 <code>nuxt.config.js</code> 往modules添加 <code>'@nuxtjs/robots'</code>,并且引入<code>\utils\robots.js</code>文件
+在项目根目录下找到 <code>nuxt.config.js</code> 往modules添加 <code>'@nuxtjs/robots'</code>,并且引入<code>/utils/robots.js</code>文件
 ```js
 modules: [
   '@nuxtjs/robots'
@@ -17,7 +17,7 @@ modules: [
 robots: robots,
 ```
 
-在项目目录下<code>\utils</code>文件夹,创建<code>robots.js</code>文件写入，文件内容如下：
+在项目目录下<code>/utils</code>文件夹,创建<code>robots.js</code>文件写入，文件内容如下：
 ```js
 /**
  * @description: 获取Robots数据

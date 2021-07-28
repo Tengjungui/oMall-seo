@@ -10,7 +10,7 @@ npm i @nuxtjs/sitemap -D
 cnpm i @nuxtjs/sitemap -D
 ```
 
-在项目根目录下找到 <code>nuxt.config.js</code> 往modules添加 <code>'@nuxtjs/sitemap'</code>,并且引入<code>\static\js\sitemap.js</code>文件
+在项目根目录下找到 <code>nuxt.config.js</code> 往modules添加 <code>'@nuxtjs/sitemap'</code>,并且引入<code>/static/js/sitemap.js</code>文件
 ```js
 modules: [
   '@nuxtjs/sitemap'
@@ -18,7 +18,7 @@ modules: [
 sitemap: sitemap,
 ```
 
-在项目目录下<code>\static\js</code>文件夹,创建<code>sitemap.js</code>文件写入，文件内容如下：
+在项目目录下<code>/static/js</code>文件夹,创建<code>sitemap.js</code>文件写入，文件内容如下：
 
 ```js
 export default (type = 0, uri = 'http://ut.m.olightstore.cn') => {
