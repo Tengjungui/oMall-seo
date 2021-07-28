@@ -58,3 +58,5 @@ const router = new VueRouter({
 “别名”的功能让你可以自由地将 UI 结构映射到任意的 URL，而不是受限于配置的嵌套路由结构。
 
 更多高级用法，请查看[例子 (opens new window)](https://github.com/vuejs/vue-router/blob/dev/examples/route-alias/app.js)。
+
+### 重定向如何实现： [实现重定向](/nuxt/nuxt-redirect.md)
