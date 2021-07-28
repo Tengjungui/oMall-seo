@@ -2,6 +2,8 @@
     - [简介](README.md)
 
 - 基础入门
+    - [Router 是什么？我为什么选择它？](/router/what-is-router.md)
+    - [Router 重定向和别名是什么？](/router/redirect-alias.md)
     - [Node.js 是什么？我为什么选择它？](/nodejs/base/what-is-nodejs.md)
     - [Node.js 版本知多少？又该如何选择？](/nodejs/base/release.md)
     - [“3N 兄弟” 助您完成 Node.js 环境搭建](/nodejs/base/install.md)
