@@ -22,7 +22,7 @@ Shadowmon，君墨尘，「**Nuxt.js技术栈**」|「**Shadowmon**」作者，�
 
 > 所有相关话题均围绕 Nuxt.js 讨论，例如URL key，会介绍在 Nuxt.js 中使用 nuxt-link、Vue Router、ES6 等常见数据的一些基础应用、问题、实践记录。
 
-`URL key` `伪静态` `router alias` `301、302重定向` `Vue Router` `实践指南` `Nuxt.js 小知识` `ES6`
+`URL key` `伪静态` `router alias` `301、302重定向` `Vue Router` `Dynamic Routes` `Nuxt.js 小知识` `ES6`
 
 **在线预览：** [https://docs.shadowmon.com](https://docs.shadowmon.com/)
 
@@ -30,7 +30,7 @@ Shadowmon，君墨尘，「**Nuxt.js技术栈**」|「**Shadowmon**」作者，�
 * [👉 URL key](https://docs.magento.com/user-guide/catalog/catalog-urls.html)
 * [☞ nuxtjs基础](https://nuxtjs.org/docs/2.x/concepts/views)
 * [👉 路由扩展](https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-router#extendroutes)
-* [👉 NPM 模块](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNDU2NTc5Mw==&action=getalbum&album_id=1825586897415389186#wechat_redirect)
+* [☞ Dynamic Routes](https://zh.nuxtjs.org/docs/2.x/features/file-system-routing#dynamic-routes)
 * [👉 Node.js 小知识](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNDU2NTc5Mw==&action=getalbum&album_id=1679118121804054530#wechat_redirect)
 * [☞ DevOps](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNDU2NTc5Mw==&action=getalbum&album_id=1831406119311720449#wechat_redirect)
 * [👉 读者投稿](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIyNDU2NTc5Mw==&action=getalbum&album_id=1971364760327634945#wechat_redirect)

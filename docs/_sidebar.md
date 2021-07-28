@@ -1,14 +1,12 @@
-- Introduction
+**- Introduction
     - [简介](README.md)
 
 - 基础入门
-    - [Router 是什么？我为什么选择它？](/router/what-is-router.md)
+    - [Router 是什么？ 我们对路由真的了解么？](/router/what-is-router.md)
     - [Router 重定向和别名是什么？](/router/redirect-alias.md)
-    - [Node.js 是什么？我为什么选择它？](/nodejs/base/what-is-nodejs.md)
-    - [Node.js 版本知多少？又该如何选择？](/nodejs/base/release.md)
-    - [“3N 兄弟” 助您完成 Node.js 环境搭建](/nodejs/base/install.md)
-    - [Node.js 包管理器 NPM](/nodejs/base/npm.md)
-    - [使用 Chrome Devtools 来调试你的 Node.js 程序](/nodejs/base/debug-nodejs-with-chrome-devtools.md)
+    - [动态路由和静态路由的区别？动态路由如何实现？](/router/dynamic-static-routes.md)
+    - [什么是伪静态？伪静态有何作用?](/router/pseudo-static.md)
+
 
 - 系统模块
     - [`[Module]` CommonJS 模块机制](/nodejs/module.md)
@@ -78,4 +76,4 @@
 
 * 其他
 
-    - [Blog 推荐](/other/blog.md)
+    - [Blog 推荐](/other/blog.md)**
