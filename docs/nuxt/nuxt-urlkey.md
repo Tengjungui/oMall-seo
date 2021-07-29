@@ -6,10 +6,86 @@
 ## URL key 实现原理与思路
 
 
-> ###### 方案一
+> ## 解决方案一
+设置一个公用的URL key 规则列表
+```js
+// url-key 配置列表
+export const urlKeyConf = [
+  { key:'', prefix: '', name: 'ALL', desc: '查询所有的', code: 0 },
+  { key:'product', prefix: 'category', name: 'CATEGORY', desc: '分类seo', code: 1 },
+  { key:'markting', prefix: 'flash', name: 'MODULE', desc: '模块seo', code: 2 },
+  // { key:'markting-id', prefix: 'flash-sale', name: 'MODULE', desc: '模块seo', code: 2 },
+  { key:'detail-id', prefix: 'product', name: 'PRODUCT', desc: '商品seo', code: 3 },
+  { key:'', prefix: 'm-flash-sale', name: 'ACTIVITY', desc: '活动seo', code: 4 },
+  { key:'', prefix: '', name: 'CUSTOM', desc: '自定义SiteMap', code: 5 },
+  { key:'', prefix: 'special-sale', name: 'SPECIAL_ACTIVITY', desc: '专题活动', code: 6 },
+  { key:'', prefix: '', name: 'ADVERTISING_LIST', desc: '广告列表', code: 7 },
+  { key:'', prefix: 'blog', name: 'INFO_LIST', desc: '信息列表', code: 8 }      
+];
+```
+```js
+// 根据url-key生成路由规则配置
+export const routesConf = _  => {
+  let conf = {}
+  urlKeyConf.map((obj => ({key, prefix}) => key && Object.assign(obj, {[key]: prefix}))(conf))
+  return conf
+}
+```
+在项目根目录下找到 <code>nuxt.config.js</code> 往router里面extendRoutes添加 <code>setRouteAlias</code>方法,并且引入<code>/utils/seoModule.js</code>文件
 
+```js
+  router: {
+    extendRoutes(routes, resolve) {
+      urlSuffix(routes)
+      routes.push({
+        name: "404",
+        path: "*",
+        component: resolve(__dirname, "pages/error/404.vue")
+      },{
+        name: "markting",
+        alias: "/flash/*",
+        path: "/markting",
+        component: resolve(__dirname, "pages/markting/index.vue")
+      });
+      // 6: {path: "/markting", alias: "/flash", name: "markting", component: ƒ}
+      // 设置路由别名
+      setRouteAlias(routes, conf())
+    }
+  },
+```
 
-> ###### 方案二
+```js
+// conf() : {
+//   product: 'category',
+//   'markting-id': 'flash',
+//   'detail-id': 'product'
+// }
+/**
+ * @description: 设置路由列表别名
+ * @param {*} obj url-key配置列表
+ * @param {*} routes 路由列表
+ */
+ export function setRouteAlias(routes, obj = { 'detail-id': 'p/*' }) {
+	Object.entries(obj).map(([k, v]) => {
+		routes.forEach(item => {
+      if (item.name === k) {
+        // /\/\w*?\/:/g ||  /\/\w+/g
+        let isArg = item.path.includes('/:')
+        let patt = new RegExp(`\\/\\w${isArg?'*?\/:':'+'}`,'g')
+				Object.assign(item, {
+          alias: item.path.replace(patt, `/${v + (isArg ? '/:' : '/*') }`)
+				});
+			}
+		});
+	});
+}
+```
+#### 优点：
+无需请求后端api数据
+#### 缺点：
+地址栏存在前缀或者多一层目录如：<code>/flash/*</code>、<code>/F_*</code>
+
+> ## 解决方案二
 ```js
 plugins: [
   { src: "@/plugins/url-keys", ssr: true },
@@ -184,3 +260,29 @@ export function findByPath(slef, id, key = "PRODUCT") {
   return Row?.urlKey;
 }
 ```
+#### 优点：
+可以随意配置url地址
+#### 缺点：
+请求次数频繁，需要实时更新
+
+> 使用示例如下：
+##### findByPath在页面上如何使用
+```js
+  convertUrl(item) {
+    let path = findByPath(this, item.productId);
+    const params = {
+      path: "/detail" + this.$urlSuffix,
+      query: {
+        productId: item.productId,
+        skuId: item.skuId
+      }
+    };
+    return path ?? `${params.path}?${qs.stringify(params.query)}`;
+  },
+```
+##### findById在页面上如何使用
+```js
+  let productId = query?.productId ?? findById(app, query, route);
+  let { data: detailData, code: detailCode } = productId ? await app.$productDetail(productId) : await app.$detailBySkuId(skuId);
+```
+
