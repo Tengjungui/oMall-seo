@@ -14,7 +14,6 @@ export const urlKeyConf = [
   { key:'', prefix: '', name: 'ALL', desc: '查询所有的', code: 0 },
   { key:'product', prefix: 'category', name: 'CATEGORY', desc: '分类seo', code: 1 },
   { key:'markting', prefix: 'flash', name: 'MODULE', desc: '模块seo', code: 2 },
-  // { key:'markting-id', prefix: 'flash-sale', name: 'MODULE', desc: '模块seo', code: 2 },
   { key:'detail-id', prefix: 'product', name: 'PRODUCT', desc: '商品seo', code: 3 },
   { key:'', prefix: 'm-flash-sale', name: 'ACTIVITY', desc: '活动seo', code: 4 },
   { key:'', prefix: '', name: 'CUSTOM', desc: '自定义SiteMap', code: 5 },
