@@ -16,7 +16,7 @@
     - [`[伪静态]` nuxt站点伪静态底层实现原理](/nuxt/nuxt-rewrite.md)
     - [`[URL key]` nuxt站点URL key底层实现原理](/nuxt/nuxt-urlkey.md)
 
-<!-- - NODE 模块
+- NODE 模块
     - [`[Module]` CommonJS 模块机制](/nodejs/module.md)
     - [`[Module]` ES Modules 入门基础](/nodejs/modules/esm.md)
     - [`[Events]` 事件触发器](/nodejs/events.md)
@@ -59,7 +59,7 @@
 
 - Node.js 小知识
     - [如何实现线程睡眠？](/nodejs/tips/sleep.md)
-    - [实现图片上传写入磁盘的接口](/nodejs/tips/upload-picture.md) -->
+    - [实现图片上传写入磁盘的接口](/nodejs/tips/upload-picture.md)
 
 - DevOps
     - [`[Docker]` Node.js 进程的优雅退出](/devops/docker-build-nodejs-smooth-program.md)
