@@ -140,7 +140,7 @@ this.$router.push('/non-existing')
 this.$route.params.pathMatch // '/non-existing'
 ```
 ## 高级匹配模式
-vue-router 使用 path-to-regexp (opens new window)作为路径匹配引擎，所以支持很多高级的匹配模式，例如：可选的动态路径参数、匹配零个或多个、一个或多个，甚至是自定义正则匹配。查看它的文档 (opens new window)学习高阶的路径匹配，还有这个例子  (opens new window)展示 vue-router 怎么使用这类匹配。
+vue-router 使用 path-to-regexp作为路径匹配引擎，所以支持很多高级的匹配模式，例如：可选的动态路径参数、匹配零个或多个、一个或多个，甚至是自定义正则匹配。查看它的文档学习高阶的路径匹配，还有这个例子 展示 vue-router 怎么使用这类匹配。
 
 ## 匹配优先级
 有时候，同一个路径可以匹配多个路由，此时，匹配的优先级就按照路由的定义顺序：路由定义得越早，优先级就越高。
