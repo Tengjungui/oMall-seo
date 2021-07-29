@@ -38,4 +38,4 @@
 * https://sit-m.olightstore.ca/o-obulb-pu-ca
 
 
-### 伪静态如何实现： [实现伪静态](/router/guide.md)
+### 伪静态如何实现： [实现伪静态](/nuxt/nuxt-rewrite)
