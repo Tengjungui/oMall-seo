@@ -56,7 +56,7 @@ Shadowmon，君墨尘，「**Nuxt.js技术栈**」|「**Shadowmon**」作者，�
 
 项目开源于 Github，为了更好的阅读体验，于 2015 年 5 月 6 日注册了域名 blog.shadowmon.com，希望 shadowmon 未来的发展越来越好！
 
-Nodejs技术栈官方网址：[https://docs.shadowmon.com](https://docs.shadowmon.com)
+Nuxt.js技术栈官方网址：[https://docs.shadowmon.com](https://docs.shadowmon.com)
 
 ## 联系我
 
