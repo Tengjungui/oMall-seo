@@ -1,8 +1,8 @@
 # oMall网站seo技术专题
 
-[![stars](https://badgen.net/github/stars/bule-sky/oMall-seo?color=cyan&icon=github&label=点赞)](https://github.com/bule-sky/oMall-seo)
+[![stars](https://badgen.net/github/stars/bule-sky/oMall-seo?color=cyan&icon=github)](https://github.com/bule-sky/oMall-seo)
 [![issues](https://badgen.net/github/issues/bule-sky/oMall-seo?color=red&icon=github&label=问题)](https://github.com/bule-sky/oMall-seo/issues)
-[![forks](https://badgen.net/github/forks/bule-sky/oMall-seo?color=orange&label=收藏)](https://github.com/bule-sky/oMall-seo)
+[![forks](https://badgen.net/github/forks/bule-sky/oMall-seo?color=orange)](https://github.com/bule-sky/oMall-seo)
 [<img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1-%E5%85%AC%E4%BC%97%E5%8F%B7-brightgreen">](https://cdn.shadowmon.com/olight.png)
 
 > 你若要喜爱你自己的价值，你就得给世界创造价值。——歌德
